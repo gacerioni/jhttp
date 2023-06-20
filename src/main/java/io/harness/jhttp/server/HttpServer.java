@@ -53,7 +53,6 @@ public class HttpServer {
      */
     public void start() {
         try {
-            System.out.println("Gabs Entry to Test Intelligence");
             serverSocket = new ServerSocket(port);
             do {
                 final Socket clientSocket = serverSocket.accept();

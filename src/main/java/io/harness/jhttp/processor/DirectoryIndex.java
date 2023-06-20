@@ -21,6 +21,7 @@ public class DirectoryIndex implements RequestProcessor {
 
     @Override
     public boolean process(HttpRequest request, HttpResponse response) {
+        System.out.println("Test Intelligence");
         final Path directory = request.resolvePath();
         if (!Files.isDirectory(directory)) {
             return false;

@@ -1,11 +1,13 @@
 FROM openjdk:8-jre-alpine3.9
-LABEL maintainer="Shivakumar Ningappa <shivagowda@gmail.com>"
+LABEL maintainer="Gabriel Cerioni <gacerioni@gmail.com>"
+
+WORKDIR /
 
 # Copy the already build jar to the image
-COPY target/jhttp-1.0-SNAPSHOT.jar /bin/
+COPY ./target/*.jar /app.jar
 
 # Expose default port for external communication
-EXPOSE 8888
+EXPOSE 8888 8080
 
 # Command to run the executable
-ENTRYPOINT [ "java" ,"-jar",  "/bin/jhttp-1.0-SNAPSHOT.jar" ]
+CMD ["java", "-jar", "/app.jar"]

@@ -62,34 +62,34 @@ public class HttpClientTest {
 
     @Test
     public void testDirectoryIndex() throws IOException, InterruptedException {
-        Thread.sleep(10000); // sleep 10 sec
+        Thread.sleep(1000); // sleep 1 sec
         testRequest("/directory1", "/http-server/server-root/directory1/index.html");
     }
 
     @Test
     public void testStaticFile() throws IOException , InterruptedException {
-        Thread.sleep(20000); // sleep 20 sec
+        Thread.sleep(2000); // sleep 2 sec
         testRequest("/file1.html", "/http-server/server-root/file1.html");
         testRequest("/file2.html", "/http-server/server-root/file2.html");
     }
 
     @Test
     public void testStaticFile123() throws IOException , InterruptedException{
-        Thread.sleep(10000); // sleep 10 sec
+        Thread.sleep(1000); // sleep 1 sec
         testRequest("/file1.html", "/http-server/server-root/file1.html");
         testRequest("/file2.html", "/http-server/server-root/file2.html");
     }
     
     @Test
     public void testStaticFile1234() throws IOException , InterruptedException {
-        Thread.sleep(10000); // sleep 10 sec
+        Thread.sleep(1000); // sleep 1 sec
         testRequest("/file1.html", "/http-server/server-root/file1.html");
         testRequest("/file2.html", "/http-server/server-root/file2.html");
     }
     
     @Test
     public void testStaticFile2234() throws IOException , InterruptedException {
-        Thread.sleep(16000); // sleep 16 sec
+        Thread.sleep(1600); // sleep 1.6 sec
         testRequest("/file1.html", "/http-server/server-root/file1.html");
         testRequest("/file2.html", "/http-server/server-root/file2.html");
     }
@@ -97,35 +97,35 @@ public class HttpClientTest {
         
     @Test
     public void testStaticFile2341() throws IOException, InterruptedException {
-        Thread.sleep(10000); // sleep 10 sec
+        Thread.sleep(1000); // sleep 1 sec
         testRequest("/file1.html", "/http-server/server-root/file1.html");
         testRequest("/file2.html", "/http-server/server-root/file2.html");
     }
     
     @Test
     public void testStaticFile6341() throws IOException, InterruptedException {
-        Thread.sleep(10000); // sleep 10 sec
+        Thread.sleep(1000); // sleep 1 sec
         testRequest("/file1.html", "/http-server/server-root/file1.html");
         testRequest("/file2.html", "/http-server/server-root/file2.html");
     }
     
     @Test
     public void testStaticFile6141() throws IOException, InterruptedException {
-        Thread.sleep(10000); // sleep 10 sec
+        Thread.sleep(1000); // sleep 1 sec
         testRequest("/file1.html", "/http-server/server-root/file1.html");
         testRequest("/file2.html", "/http-server/server-root/file2.html");
     }
     
     @Test
     public void testStaticFile6121() throws IOException, InterruptedException {
-        Thread.sleep(12000); 
+        Thread.sleep(1200);
         testRequest("/file1.html", "/http-server/server-root/file1.html");
         testRequest("/file2.html", "/http-server/server-root/file2.html");
     }
     
     @Test
     public void testStaticFile61212() throws IOException, InterruptedException {
-        Thread.sleep(9000); 
+        Thread.sleep(900);
         testRequest("/file1.html", "/http-server/server-root/file1.html");
         testRequest("/file2.html", "/http-server/server-root/file2.html");
     }
@@ -133,14 +133,14 @@ public class HttpClientTest {
     
     @Test
     public void testStaticFile61272() throws IOException, InterruptedException {
-        Thread.sleep(21000); 
+        Thread.sleep(2100);
         testRequest("/file1.html", "/http-server/server-root/file1.html");
         testRequest("/file2.html", "/http-server/server-root/file2.html");
     }
     
     @Test
     public void testStaticFile7777() throws IOException, InterruptedException {
-        Thread.sleep(4000); 
+        Thread.sleep(400);
         testRequest("/file1.html", "/http-server/server-root/file1.html");
         testRequest("/file2.html", "/http-server/server-root/file2.html");
     }
@@ -148,21 +148,21 @@ public class HttpClientTest {
     
     @Test
     public void testStaticFile07776() throws IOException, InterruptedException {
-        Thread.sleep(2000); 
+        Thread.sleep(200);
         testRequest("/file1.html", "/http-server/server-root/file1.html");
         testRequest("/file2.html", "/http-server/server-root/file2.html");
     }
     
     @Test
     public void testStaticFile01776() throws IOException, InterruptedException {
-        Thread.sleep(2000); 
+        Thread.sleep(200);
         testRequest("/file1.html", "/http-server/server-root/file1.html");
         testRequest("/file2.html", "/http-server/server-root/file2.html");
     }
     
     @Test
     public void testStaticFile02776() throws IOException, InterruptedException {
-        Thread.sleep(2000); 
+        Thread.sleep(200);
         testRequest("/file1.html", "/http-server/server-root/file1.html");
         testRequest("/file2.html", "/http-server/server-root/file2.html");
     }
@@ -170,7 +170,7 @@ public class HttpClientTest {
         
     @Test
     public void testStaticFile03776() throws IOException, InterruptedException {
-        Thread.sleep(2000); 
+        Thread.sleep(200);
         testRequest("/file1.html", "/http-server/server-root/file1.html");
         testRequest("/file2.html", "/http-server/server-root/file2.html");
     }
@@ -178,14 +178,14 @@ public class HttpClientTest {
     
     @Test
     public void testStaticFile04776() throws IOException, InterruptedException {
-        Thread.sleep(2000); 
+        Thread.sleep(200);
         testRequest("/file1.html", "/http-server/server-root/file1.html");
         testRequest("/file2.html", "/http-server/server-root/file2.html");
     }
     
     @Test
     public void testStaticFile0576() throws IOException, InterruptedException {
-        Thread.sleep(2000); 
+        Thread.sleep(200);
         testRequest("/file1.html", "/http-server/server-root/file1.html");
         testRequest("/file2.html", "/http-server/server-root/file2.html");
     }
@@ -194,7 +194,7 @@ public class HttpClientTest {
         
     @Test
     public void testStaticFile0676() throws IOException, InterruptedException {
-        Thread.sleep(2000); 
+        Thread.sleep(200);
         testRequest("/file1.html", "/http-server/server-root/file1.html");
         testRequest("/file2.html", "/http-server/server-root/file2.html");
     }
@@ -202,7 +202,7 @@ public class HttpClientTest {
         
     @Test
     public void testStaticFile0776() throws IOException, InterruptedException {
-        Thread.sleep(2000); 
+        Thread.sleep(200);
         testRequest("/file1.html", "/http-server/server-root/file1.html");
         testRequest("/file2.html", "/http-server/server-root/file2.html");
     }
@@ -210,14 +210,14 @@ public class HttpClientTest {
             
     @Test
     public void testStaticFile0876() throws IOException, InterruptedException {
-        Thread.sleep(6000); 
+        Thread.sleep(600);
         testRequest("/file1.html", "/http-server/server-root/file1.html");
         testRequest("/file2.html", "/http-server/server-root/file2.html");
     }
     
     @Test
     public void testStaticFile0976() throws IOException, InterruptedException {
-        Thread.sleep(1000); 
+        Thread.sleep(100);
         testRequest("/file1.html", "/http-server/server-root/file1.html");
         testRequest("/file2.html", "/http-server/server-root/file2.html");
     }
@@ -225,21 +225,21 @@ public class HttpClientTest {
     
     @Test
     public void testStaticFile09176() throws IOException, InterruptedException {
-        Thread.sleep(1000); 
+        Thread.sleep(100);
         testRequest("/file1.html", "/http-server/server-root/file1.html");
         testRequest("/file2.html", "/http-server/server-root/file2.html");
     }
     
     @Test
     public void testStaticFile09276() throws IOException, InterruptedException {
-        Thread.sleep(1000); 
+        Thread.sleep(100);
         testRequest("/file1.html", "/http-server/server-root/file1.html");
         testRequest("/file2.html", "/http-server/server-root/file2.html");
     }  
     
     @Test
     public void testStaticFile09376() throws IOException, InterruptedException {
-        Thread.sleep(1000); 
+        Thread.sleep(100);
         testRequest("/file1.html", "/http-server/server-root/file1.html");
         testRequest("/file2.html", "/http-server/server-root/file2.html");
     } 
@@ -247,14 +247,14 @@ public class HttpClientTest {
         
     @Test
     public void testStaticFile09476() throws IOException, InterruptedException {
-        Thread.sleep(1000); 
+        Thread.sleep(100);
         testRequest("/file1.html", "/http-server/server-root/file1.html");
         testRequest("/file2.html", "/http-server/server-root/file2.html");
     } 
             
     @Test
     public void testStaticFile09576() throws IOException, InterruptedException {
-        Thread.sleep(1000); 
+        Thread.sleep(100);
         testRequest("/file1.html", "/http-server/server-root/file1.html");
         testRequest("/file2.html", "/http-server/server-root/file2.html");
     } 
